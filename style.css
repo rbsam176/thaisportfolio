@@ -36,6 +36,31 @@ h4 {
     font-size: 20px;
 }
 
+.side-nav {
+    position: sticky;
+    top: 30vh;
+    font-size: 20px;
+}
+
+.active {
+    background-color: #DEE0ED;
+    padding: 1px 10px;
+}
+
+.card-body {
+    background-color: #FCF6F6;
+}
+
+.card-title {
+    font-size: 18px;
+}
+
+.year-title {
+    position: relative;
+    top: 25%;
+    font-size: 17px;
+}
+
 #contact > p {
     font-size: 15px;
     line-height: 25px;
