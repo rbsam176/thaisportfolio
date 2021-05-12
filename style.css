@@ -9,8 +9,18 @@ body {
     color: #0147BB;
 }
 
+a {
+    color: #0147BB;
+}
+
+a:hover {
+    color: #2277ff;
+    text-decoration: none;
+}
+
 #heroImg {
-    height: 80vh;
+    max-height: 80vh;
+    width: 100%;
 }
 
 h1 {
@@ -22,6 +32,19 @@ h2 {
     letter-spacing: 1.5px;
 }
 
+h4 {
+    font-size: 20px;
+}
+
+#contact > p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
 .nav-link {
     font-size: 25px;
+}
+
+.about-text {
+    text-align: justify;
 }
