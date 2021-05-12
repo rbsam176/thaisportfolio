@@ -1,3 +1,27 @@
-#main {
-    background-color: #FBF6F6;
+@font-face {
+    font-family: "titlefont";
+    src: url("Recoleta-RegularDEMO.otf");
+  }
+
+body {
+    font-family: titlefont, serif;
+    background-color: #fcf6f6;
+    color: #0147BB;
+}
+
+#heroImg {
+    height: 80vh;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+.nav-link {
+    font-size: 25px;
 }
