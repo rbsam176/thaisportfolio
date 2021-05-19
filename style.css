@@ -14,22 +14,24 @@ a {
 }
 
 a:hover {
-    color: #2277ff;
+    color: #4f86df;
     text-decoration: none;
 }
 
 #heroImg {
-    max-height: 80vh;
+    max-height: 70vh;
     width: 100%;
+    object-fit: contain;
 }
 
 h1 {
     font-size: 35px;
+    letter-spacing: 1px;
 }
 
 h2 {
-    font-size: 15px;
-    letter-spacing: 1.5px;
+    font-size: 13px;
+    letter-spacing: 1px;
 }
 
 h4 {
@@ -53,6 +55,21 @@ h4 {
     padding: 1px 10px;
 }
 
+.card-img-top {
+    object-fit: cover;
+    height: 250px;
+}
+
+.img-essay {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.essay-blocks {
+    width: 330px;
+}
+
 .card-body {
     background-color: #FCF6F6;
 }
@@ -64,7 +81,7 @@ h4 {
 .year-title {
     position: relative;
     top: 25%;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #contact > p {
@@ -73,7 +90,7 @@ h4 {
 }
 
 .nav-link {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .about-text {
