@@ -18,6 +18,15 @@ a:hover {
     text-decoration: none;
 }
 
+#nav {
+    height: 100px;
+    padding-top: 15px;
+}
+
+#hero {
+    height: calc(100vh - 100px);
+}
+
 #heroImg {
     max-height: 70vh;
     width: 100%;
