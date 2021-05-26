@@ -1,16 +1,26 @@
-@font-face {
+/* @font-face {
     font-family: "titlefont";
     src: url("Recoleta-RegularDEMO.otf");
-}
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre&family=Open+Sans:wght@300;400&display=swap');
 
 .close-btn {
     font-family: sans-serif;
 }
 
 body {
-    font-family: titlefont, serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #fcf6f6;
     color: #0147BB;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.project-header {
+    font-size: 22px;
+    text-align: left;
+    font-family: 'Averia Serif Libre', cursive;
 }
 
 a {
@@ -43,13 +53,16 @@ a:hover {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 1px;
+    font-family: 'Averia Serif Libre', cursive;
 }
 
 h2 {
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 h4 {
@@ -72,6 +85,11 @@ h4 {
     width: 100%;
     max-height: 80vh;
     object-fit: contain;
+}
+
+#project-text {
+    padding: 10px 30px 40px 30px;
+    text-align: justify;
 }
 
 span.carousel-control-next-icon {
@@ -140,6 +158,7 @@ span.carousel-control-prev-icon {
 
 .nav-link {
     font-size: 20px;
+    font-family: 'Averia Serif Libre', cursive;
 }
 
 .about-text {
