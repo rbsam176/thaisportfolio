@@ -70,8 +70,17 @@ h4 {
 }
 
 .card-img-top {
-    object-fit: cover;
+    object-fit: contain;
     height: 250px;
+    /* width: 330px; */
+}
+
+.work-img {
+    width: 100%;
+}
+
+.work-card {
+    width: 330px;
 }
 
 .img-essay {
