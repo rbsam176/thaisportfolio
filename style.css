@@ -118,6 +118,10 @@ span.carousel-control-prev-icon {
     cursor: zoom-in;
 }
 
+.thumbnail {
+    height: 100px;
+}
+
 .work-card {
     width: 330px;
 }
