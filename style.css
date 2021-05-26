@@ -109,7 +109,7 @@ span.carousel-control-prev-icon {
 }
 
 .card-img-top {
-    object-fit: contain;
+    object-fit: cover;
     height: 250px;
     /* width: 330px; */
 }
