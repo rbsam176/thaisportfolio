@@ -41,10 +41,10 @@ a:hover {
     padding-top: 20px;
 }
 
-/* #social {
+#social {
     position: absolute;
-    bottom: 0;
-} */
+    bottom: 10px;
+}
 
 /* #hero {
     height: calc(100vh - 100px);
