@@ -136,14 +136,9 @@ span.carousel-control-prev-icon {
     height: 250px;
 }
 
-.essay-blocks {
-    width: 330px;
-    /* width: 100%; */
-}
-
-/* #essay-container {
+#essay-container {
     max-width: 330px;
-} */
+}
 
 .card-body {
     background-color: #FCF6F6;
